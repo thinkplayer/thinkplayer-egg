@@ -1,0 +1,277 @@
+{
+  "security": {
+    "csrf": {
+      "enable": "E:\\project\\Awesome\\thinkplayer-egg\\config\\config.default.js",
+      "type": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "E:\\project\\Awesome\\thinkplayer-egg\\config\\config.default.js",
+    "allowMethods": "E:\\project\\Awesome\\thinkplayer-egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "jsonLimit": "E:\\project\\Awesome\\thinkplayer-egg\\config\\config.default.js",
+    "enable": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "userList": {
+    "wzj1": "E:\\project\\Awesome\\thinkplayer-egg\\config\\config.default.js",
+    "wzj2": "E:\\project\\Awesome\\thinkplayer-egg\\config\\config.default.js",
+    "whr1": "E:\\project\\Awesome\\thinkplayer-egg\\config\\config.default.js",
+    "whr2": "E:\\project\\Awesome\\thinkplayer-egg\\config\\config.default.js",
+    "ljl1": "E:\\project\\Awesome\\thinkplayer-egg\\config\\config.default.js",
+    "ljf1": "E:\\project\\Awesome\\thinkplayer-egg\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "keys": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "main": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "test": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+      "dev": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "E:\\project\\Awesome\\thinkplayer-egg\\node_modules\\egg\\config\\config.default.js"
+}

@@ -1,0 +1,59 @@
+2021-02-27 08:17:45,662 INFO 19816 [Timer] E:\project\Awesome\myEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 72734341ms at 2021-02-28 04:30:00.003
+2021-02-27 08:17:45,662 INFO 19816 [Timer] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 56534338ms at 2021-02-28 00:00:00.000
+2021-02-27 08:17:45,662 INFO 19816 [Timer] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 56535338ms at 2021-02-28 00:00:01.000
+2021-02-27 08:17:45,663 INFO 19816 [Timer] E:\project\Awesome\myEgg\app\schedule\signin.js next time will execute after 10394338ms at 2021-02-27 11:11:00.001
+2021-02-27 08:17:45,447 INFO 1292 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-02-27 08:17:45,447 INFO 1292 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-02-27 08:17:45,447 INFO 1292 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-02-27 08:17:45,447 INFO 1292 [egg-schedule]: register schedule E:\project\Awesome\myEgg\app\schedule\signin.js
+2021-02-27 08:17:47,017 INFO 5180 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-02-27 08:17:47,017 INFO 5180 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-02-27 08:17:47,017 INFO 5180 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-02-27 08:17:47,017 INFO 5180 [egg-schedule]: register schedule E:\project\Awesome\myEgg\app\schedule\signin.js
+2021-02-27 09:32:11,440 INFO 6924 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-02-27 09:32:11,440 INFO 6924 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-02-27 09:32:11,440 INFO 6924 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-02-27 09:32:11,440 INFO 6924 [egg-schedule]: register schedule E:\project\Awesome\myEgg\app\schedule\signin.js
+2021-02-27 09:32:12,977 INFO 17796 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-02-27 09:32:12,977 INFO 17796 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-02-27 09:32:12,977 INFO 17796 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-02-27 09:32:12,977 INFO 17796 [egg-schedule]: register schedule E:\project\Awesome\myEgg\app\schedule\signin.js
+2021-02-27 09:33:22,328 INFO 10472 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-02-27 09:33:22,328 INFO 10472 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-02-27 09:33:22,328 INFO 10472 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-02-27 09:33:22,328 INFO 10472 [egg-schedule]: register schedule E:\project\Awesome\myEgg\app\schedule\signin.js
+2021-02-27 11:11:00,019 INFO 19816 [Timer] E:\project\Awesome\myEgg\app\schedule\signin.js next time will execute after 86399991ms at 2021-02-28 11:11:00.010
+2021-02-27 11:11:00,018 INFO 10472 [Job#1614395460007108478778854001] E:\project\Awesome\myEgg\app\schedule\signin.js executing by app
+2021-02-27 11:11:00,024 INFO 10472 [Job#1614395460007108478778854001] E:\project\Awesome\myEgg\app\schedule\signin.js execute succeed, used 2ms. 
+2021-02-27 12:34:17,567 INFO 18996 [Timer] E:\project\Awesome\myEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 57342436ms at 2021-02-28 04:30:00.003
+2021-02-27 12:34:17,567 INFO 18996 [Timer] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 41142433ms at 2021-02-28 00:00:00.000
+2021-02-27 12:34:17,567 INFO 18996 [Timer] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 41143433ms at 2021-02-28 00:00:01.000
+2021-02-27 12:34:17,567 INFO 18996 [Timer] E:\project\Awesome\myEgg\app\schedule\signin.js next time will execute after 42433ms at 2021-02-27 12:35:00.000
+2021-02-27 12:34:17,400 INFO 19256 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-02-27 12:34:17,400 INFO 19256 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-02-27 12:34:17,400 INFO 19256 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-02-27 12:34:17,400 INFO 19256 [egg-schedule]: register schedule E:\project\Awesome\myEgg\app\schedule\signin.js
+2021-02-27 12:35:00,023 INFO 18996 [Timer] E:\project\Awesome\myEgg\app\schedule\signin.js next time will execute after 86399985ms at 2021-02-28 12:35:00.008
+2021-02-27 12:35:00,017 INFO 19256 [Job#1614400500014158878855668001] E:\project\Awesome\myEgg\app\schedule\signin.js executing by app
+2021-02-27 12:35:00,021 INFO 19256 [Job#1614400500014158878855668001] E:\project\Awesome\myEgg\app\schedule\signin.js execute succeed, used 1ms. 
+2021-02-27 12:36:00,815 INFO 6272 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-02-27 12:36:00,815 INFO 6272 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-02-27 12:36:00,815 INFO 6272 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-02-27 12:36:00,816 INFO 6272 [egg-schedule]: register schedule E:\project\Awesome\myEgg\app\schedule\signin.js
+2021-02-27 12:36:09,482 INFO 2776 [Timer] E:\project\Awesome\myEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 57230520ms at 2021-02-28 04:30:00.002
+2021-02-27 12:36:09,483 INFO 2776 [Timer] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 41030517ms at 2021-02-28 00:00:00.000
+2021-02-27 12:36:09,483 INFO 2776 [Timer] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 41031517ms at 2021-02-28 00:00:01.000
+2021-02-27 12:36:09,483 INFO 2776 [Timer] E:\project\Awesome\myEgg\app\schedule\signin.js next time will execute after 50517ms at 2021-02-27 12:37:00.000
+2021-02-27 12:36:09,308 INFO 14824 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-02-27 12:36:09,308 INFO 14824 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-02-27 12:36:09,308 INFO 14824 [egg-schedule]: register schedule E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-02-27 12:36:09,308 INFO 14824 [egg-schedule]: register schedule E:\project\Awesome\myEgg\app\schedule\signin.js
+2021-02-27 12:37:00,016 INFO 2776 [Timer] E:\project\Awesome\myEgg\app\schedule\signin.js next time will execute after 86399986ms at 2021-02-28 12:37:00.002
+2021-02-27 12:37:00,015 INFO 14824 [Job#1614400620013160078849350001] E:\project\Awesome\myEgg\app\schedule\signin.js executing by app
+2021-02-27 12:37:00,016 INFO 14824 [Job#1614400620013160078849350001] E:\project\Awesome\myEgg\app\schedule\signin.js execute succeed, used 1ms. 
+2021-02-28 00:00:00,027 INFO 2776 [Timer] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399981ms at 2021-03-01 00:00:00.008
+2021-02-28 00:00:00,025 INFO 14824 [Job#1614441600018569878884309001] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2021-02-28 00:00:00,052 INFO 14824 [Job#1614441600018569878884309001] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 25ms. 
+2021-02-28 00:00:01,021 INFO 2776 [Timer] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399991ms at 2021-03-01 00:00:01.012
+2021-02-28 00:00:01,010 INFO 14824 [Job#1614441601009569888794783001] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2021-02-28 00:00:01,037 INFO 14824 [Job#1614441601009569888794783001] E:\project\Awesome\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 27ms. 

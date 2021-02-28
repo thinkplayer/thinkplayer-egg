@@ -1,0 +1,189 @@
+2021-02-25 20:57:32,731 WARN 11680 [-/127.0.0.1/-/4ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-02-25 20:57:32,733 WARN 11680 [-/127.0.0.1/-/6ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (E:\project\Awesome\myEgg\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\project\Awesome\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\project\Awesome\myEgg\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 11680
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 20:57:50,464 WARN 612 [-/127.0.0.1/-/4ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-02-25 20:57:50,466 WARN 612 [-/127.0.0.1/-/5ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\project\Awesome\myEgg\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\project\Awesome\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\project\Awesome\myEgg\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 612
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 21:00:23,010 WARN 14524 [-/127.0.0.1/-/4ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-02-25 21:00:23,012 WARN 14524 [-/127.0.0.1/-/6ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\project\Awesome\myEgg\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\project\Awesome\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\project\Awesome\myEgg\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14524
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 21:02:11,058 WARN 11156 [-/127.0.0.1/-/4ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-02-25 21:02:11,060 WARN 11156 [-/127.0.0.1/-/6ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\project\Awesome\myEgg\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\project\Awesome\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\project\Awesome\myEgg\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 11156
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 21:02:22,712 WARN 11156 [-/127.0.0.1/-/16ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-02-25 21:02:22,712 WARN 11156 [-/127.0.0.1/-/16ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\project\Awesome\myEgg\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\project\Awesome\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\project\Awesome\myEgg\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 11156
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 21:05:11,272 WARN 23796 [-/127.0.0.1/-/20ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-02-25 21:05:11,274 WARN 23796 [-/127.0.0.1/-/21ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\project\Awesome\myEgg\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\project\Awesome\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\project\Awesome\myEgg\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 23796
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 21:11:57,685 ERROR 20920 [-/127.0.0.1/-/20ms POST /login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\project\Awesome\myEgg\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\project\Awesome\myEgg\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\project\Awesome\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 20920
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 21:12:31,967 WARN 17708 [-/127.0.0.1/-/120ms POST /login] nodejs.JSONResponseFormatError: Unexpected token N in JSON at position 0 (data json format: "Not Found"), GET http://157.122.54.189:9089/user/login 404 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"157.122.54.189:9089:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:12:41 GMT","connection":"keep-alive"}
+headers: {"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:12:41 GMT","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:1190:24)
+    at E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:895:23
+    at decodeContent (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:699:14)
+    at handleResponseCloseAndEnd (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:876:7)
+    at IncomingMessage.<anonymous> (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:920:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+name: "JSONResponseFormatError"
+data: "Not Found"
+path: "/user/login"
+status: 404
+headers: {"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:12:41 GMT","connection":"keep-alive"}
+res: {"status":404,"statusCode":404,"statusMessage":"Not Found","headers":{"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:12:41 GMT","connection":"keep-alive"},"size":9,"aborted":false,"rt":96,"keepAliveSocket":false,"data":"Not Found","requestUrls":["http://157.122.54.189:9089/user/login"],"timing":null,"remoteAddress":"157.122.54.189","remotePort":9089,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 17708
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 21:13:53,870 WARN 17536 [-/127.0.0.1/-/106ms POST /login] nodejs.JSONResponseFormatError: Unexpected token N in JSON at position 0 (data json format: "Not Found"), GET http://157.122.54.189:9089/user/login 404 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"157.122.54.189:9089:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:14:03 GMT","connection":"keep-alive"}
+headers: {"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:14:03 GMT","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:1190:24)
+    at E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:895:23
+    at decodeContent (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:699:14)
+    at handleResponseCloseAndEnd (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:876:7)
+    at IncomingMessage.<anonymous> (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:920:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+name: "JSONResponseFormatError"
+data: "Not Found"
+path: "/user/login"
+status: 404
+headers: {"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:14:03 GMT","connection":"keep-alive"}
+res: {"status":404,"statusCode":404,"statusMessage":"Not Found","headers":{"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:14:03 GMT","connection":"keep-alive"},"size":9,"aborted":false,"rt":83,"keepAliveSocket":false,"data":"Not Found","requestUrls":["http://157.122.54.189:9089/user/login"],"timing":null,"remoteAddress":"157.122.54.189","remotePort":9089,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 17536
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 21:17:22,347 WARN 15992 [-/127.0.0.1/-/129ms POST /login] nodejs.JSONResponseFormatError: Unexpected token N in JSON at position 0 (data json format: "Not Found"), GET http://157.122.54.189:9089/user/login 404 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"157.122.54.189:9089:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:17:31 GMT","connection":"keep-alive"}
+headers: {"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:17:31 GMT","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:1190:24)
+    at E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:895:23
+    at decodeContent (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:699:14)
+    at handleResponseCloseAndEnd (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:876:7)
+    at IncomingMessage.<anonymous> (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:920:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+name: "JSONResponseFormatError"
+data: "Not Found"
+path: "/user/login"
+status: 404
+headers: {"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:17:31 GMT","connection":"keep-alive"}
+res: {"status":404,"statusCode":404,"statusMessage":"Not Found","headers":{"access-control-allow-origin":"http://localhost","access-control-allow-headers":"X-Requested-With, accept,OPTIONS, content-type","access-control-allow-methods":"*","access-control-allow-credentials":"true","content-type":"text/plain; charset=utf-8","content-length":"9","date":"Thu, 25 Feb 2021 13:17:31 GMT","connection":"keep-alive"},"size":9,"aborted":false,"rt":97,"keepAliveSocket":false,"data":"Not Found","requestUrls":["http://157.122.54.189:9089/user/login"],"timing":null,"remoteAddress":"157.122.54.189","remotePort":9089,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 15992
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 22:04:15,237 ERROR 26684 [-/127.0.0.1/-/104ms GET /signIn/f0f9e135-190f-4d5a-99bd-1b997118c90c] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at userService.signIn (E:\project\Awesome\myEgg\app\service\user.js:26:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.signIn (E:\project\Awesome\myEgg\app\controller\user.js:16:18)
+    at async E:\project\Awesome\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\Awesome\myEgg\node_modules\koa-session\index.js:41:7)
+
+pid: 26684
+hostname: DESKTOP-UVR7GCB
+

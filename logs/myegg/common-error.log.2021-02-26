@@ -1,0 +1,1089 @@
+2021-02-26 09:02:42,245 ERROR 20812 nodejs.ClusterClientNoResponseError: client no response in 25932842ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 20812
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 12:28:43,455 ERROR 20156 [-/127.0.0.1/-/24ms POST /user/login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\project\Awesome\myEgg\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\project\Awesome\myEgg\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\project\Awesome\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 20156
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 12:30:44,190 ERROR 15364 [-/127.0.0.1/-/17ms GET /user/login] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (E:\project\Awesome\myEgg\app\controller\user.js:6:45)
+    at Object.callFn (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\Awesome\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\Awesome\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\Awesome\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:45:18)
+    at E:\project\Awesome\myEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:44:32)
+    at E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:36:12
+
+pid: 15364
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 12:31:25,698 ERROR 22264 [-/127.0.0.1/-/17ms GET /user/login] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (E:\project\Awesome\myEgg\app\controller\user.js:6:45)
+    at Object.callFn (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\Awesome\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\Awesome\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\Awesome\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:45:18)
+    at E:\project\Awesome\myEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:44:32)
+    at E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:36:12
+
+pid: 22264
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 12:31:28,457 ERROR 22264 [-/127.0.0.1/-/1ms GET /user/login] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (E:\project\Awesome\myEgg\app\controller\user.js:6:45)
+    at Object.callFn (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\Awesome\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\Awesome\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\Awesome\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:45:18)
+    at E:\project\Awesome\myEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:44:32)
+    at E:\project\Awesome\myEgg\node_modules\koa-compose\index.js:36:12
+
+pid: 22264
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 15:28:44,570 ERROR 8704 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8704
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 15:39:32,634 ERROR 21208 nodejs.TypeError: Assignment to constant variable.
+    at E:\project\Awesome\myEgg\app\controller\user.js:15:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 21208
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 15:39:52,593 ERROR 11904 nodejs.TypeError: Assignment to constant variable.
+    at E:\project\Awesome\myEgg\app\controller\user.js:15:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 11904
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 16:05:48,534 ERROR 27000 [Job#1614326743517959992114785001] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5014ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 1,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5012,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:06:57,363 ERROR 22460 [Job#161432681234396068382551001] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5016ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":5,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 1,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5014,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:06:57,385 ERROR 22460 [Job#161432681334996069438407002] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 4034ms. Error: getaddrinfo ENOTFOUND www.api.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'www.api.com',
+  name: 'RequestError',
+  data: undefined,
+  path: '/cache',
+  status: -1,
+  headers: {},
+  res: {
+    status: -1,
+    statusCode: -1,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 4034,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:06:59,371 ERROR 22460 [Job#161432681436096070553725003] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5008ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":7,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 3,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5008,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:00,378 ERROR 22460 [Job#161432681536996071643040004] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5007ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":8,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 4,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5007,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:01,385 ERROR 22460 [Job#161432681637196072667016005] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5010ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":9,"createSocketErrorCount":0,"closeSocketCount":5,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 5,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5010,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:02,391 ERROR 22460 [Job#161432681737596073699364006] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5015ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":10,"createSocketErrorCount":0,"closeSocketCount":6,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 6,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5015,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:03,391 ERROR 22460 [Job#161432681838196074763004007] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5008ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":11,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 7,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5007,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:04,399 ERROR 22460 [Job#161432681938596075797584008] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5013ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":12,"createSocketErrorCount":0,"closeSocketCount":8,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 8,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5013,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:05,410 ERROR 22460 [Job#161432682039396076885425009] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5014ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":13,"createSocketErrorCount":0,"closeSocketCount":9,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 9,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5014,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:06,403 ERROR 22460 [Job#1614326821398960779364860010] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5003ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":14,"createSocketErrorCount":0,"closeSocketCount":10,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 10,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5003,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:09,382 ERROR 22516 [Job#16143268274509608314559910016] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 1592ms. Error: getaddrinfo ENOTFOUND www.api.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'www.api.com',
+  name: 'RequestError',
+  data: undefined,
+  path: '/cache',
+  status: -1,
+  headers: {},
+  res: {
+    status: -1,
+    statusCode: -1,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 1590,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:09,386 ERROR 22516 [Job#16143268284569608415145340017] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 929ms. Error: getaddrinfo ENOTFOUND www.api.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'www.api.com',
+  name: 'RequestError',
+  data: undefined,
+  path: '/cache',
+  status: -1,
+  headers: {},
+  res: {
+    status: -1,
+    statusCode: -1,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 929,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:14,470 ERROR 22516 [Job#16143268294639608515825840018] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5004ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":7,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 3,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5004,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:15,382 ERROR 22516 [Job#16143268304699608616442460019] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 4912ms. Error: getaddrinfo ENOTFOUND www.api.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'www.api.com',
+  name: 'RequestError',
+  data: undefined,
+  path: '/cache',
+  status: -1,
+  headers: {},
+  res: {
+    status: -1,
+    statusCode: -1,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 4912,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:16,480 ERROR 22516 [Job#16143268314729608716721190020] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5006ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":9,"createSocketErrorCount":0,"closeSocketCount":5,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 5,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5006,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:17,482 ERROR 22516 [Job#16143268324749608816900210021] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5007ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":10,"createSocketErrorCount":0,"closeSocketCount":6,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 6,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5007,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:18,498 ERROR 22516 [Job#16143268334799608917388000022] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5018ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":11,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 7,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5016,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:19,486 ERROR 22516 [Job#16143268344839609017806120023] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5002ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":12,"createSocketErrorCount":0,"closeSocketCount":8,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 8,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5002,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:20,496 ERROR 22516 [Job#16143268354909609118505130024] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5005ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":13,"createSocketErrorCount":0,"closeSocketCount":9,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.api.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 9,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5005,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:07:51,915 ERROR 10180 [Job#1614326866890961225851135002] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5022ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 1,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5020,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:08:01,919 ERROR 10180 [Job#1614326876903961325984431003] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5014ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 2,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5014,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:08:11,916 ERROR 10180 [Job#1614326886905961425999471004] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5010ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 3,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5010,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:08:21,915 ERROR 10180 [Job#1614326896913961526084943005] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5001ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 4,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5001,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:08:31,933 ERROR 10180 [Job#1614326906930961626243135006] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5003ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":5,"createSocketErrorCount":0,"closeSocketCount":5,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 5,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5003,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 16:08:41,938 ERROR 10180 [Job#1614326916932961726268528007] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 5005ms. Error [ConnectionTimeoutError]: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":6,"createSocketErrorCount":0,"closeSocketCount":6,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7) {
+  requestId: 6,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: {
+    status: -2,
+    statusCode: -2,
+    statusMessage: null,
+    headers: {},
+    size: 0,
+    aborted: false,
+    rt: 5005,
+    keepAliveSocket: false,
+    data: undefined,
+    requestUrls: [ 'http://www.api.com/cache' ],
+    timing: null,
+    remoteAddress: '',
+    remotePort: '',
+    socketHandledRequests: 1,
+    socketHandledResponses: 0
+  }
+}
+2021-02-26 17:33:00,017 ERROR 19080 [Job#16143319800151012357097653001] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: Cannot read property 'userList' of undefined
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:8:29)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:35:00,018 ERROR 7756 [Job#16143321000121013557070151001] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 1ms. TypeError: Cannot read property 'userList' of undefined
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:9:29)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:37:00,013 ERROR 29852 [Job#16143322200071014757022210001] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 1ms. TypeError: UserController.signIn is not a function
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:30:20)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:39:00,008 ERROR 30816 [Job#16143323400051015956997570001] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 1ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\schedule\signin.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:30:28)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:07,600 ERROR 30144 [Job#16143330070901022627854037004] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: UserController.signIn is not a function
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:20)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:09,095 ERROR 30144 [Job#16143330090921022647874537005] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 1ms. TypeError: UserController.signIn is not a function
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:20)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:11,104 ERROR 30144 [Job#16143330111021022667973837006] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: UserController.signIn is not a function
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:20)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:13,110 ERROR 30144 [Job#16143330131071022688023058007] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: UserController.signIn is not a function
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:20)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:15,117 ERROR 30144 [Job#16143330151141022708094600008] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: UserController.signIn is not a function
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:20)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:17,127 ERROR 30144 [Job#16143330171261022728210083009] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: UserController.signIn is not a function
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:20)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:19,128 ERROR 30144 [Job#161433301912710227482196460010] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: UserController.signIn is not a function
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:20)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:51,920 ERROR 22116 [Job#161433305125710230695195980026] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 1ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\controller\user.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:37)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:53,276 ERROR 22116 [Job#161433305327310230896803270027] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\controller\user.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:37)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:55,283 ERROR 7464 [Job#161433305528110231097589330028] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\controller\user.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:37)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:57,299 ERROR 7464 [Job#161433305729610231299146570029] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\controller\user.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:37)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:50:59,307 ERROR 7464 [Job#161433305930610231518060030] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\controller\user.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:37)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:51:01,321 ERROR 7464 [Job#16143330613191023171335920031] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\controller\user.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:37)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:51:03,328 ERROR 7464 [Job#16143330633281023192197810032] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\controller\user.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:37)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:51:05,331 ERROR 7464 [Job#16143330653281023212287120033] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 1ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\controller\user.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:37)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:51:07,338 ERROR 7464 [Job#16143330673361023232998490034] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\controller\user.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:37)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:51:09,348 ERROR 7464 [Job#16143330693471023254151390035] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\controller\user.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:37)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:51:11,351 ERROR 7464 [Job#16143330713511023274496210036] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 0ms. TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (E:\project\Awesome\myEgg\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new UserController (E:\project\Awesome\myEgg\app\controller\user.js:2:1)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:11:37)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 17:59:00,013 ERROR 17708 [Job#16143335400091027957032422001] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 3ms. ReferenceError: getRandomIntInclusive is not defined
+    at E:\project\Awesome\myEgg\app\schedule\signin.js:15:23
+    at Array.forEach (<anonymous>)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:14:14)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 18:00:00,008 ERROR 22016 [Job#16143336000031028556974142001] E:\project\Awesome\myEgg\app\schedule\signin.js execute failed, used 4ms. ReferenceError: getRandomIntInclusive is not defined
+    at E:\project\Awesome\myEgg\app\schedule\signin.js:15:23
+    at Array.forEach (<anonymous>)
+    at Object.task (E:\project\Awesome\myEgg\app\schedule\signin.js:14:14)
+    at Messenger.<anonymous> (E:\project\Awesome\myEgg\node_modules\egg-schedule\app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (E:\project\Awesome\myEgg\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2021-02-26 21:02:36,545 ERROR 25224 nodejs.ClusterClientNoResponseError: client no response in 10807683ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 25224
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 22:26:45,504 ERROR 25224 nodejs.ClusterClientNoResponseError: client no response in 5048853ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 25224
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 23:13:29,956 ERROR 23312 nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at userService.signIn (E:\project\Awesome\myEgg\app\service\user.js:22:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Timeout._onTimeout (E:\project\Awesome\myEgg\app\controller\user.js:16:22)
+
+pid: 23312
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 23:13:30,010 ERROR 23312 nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at userService.signIn (E:\project\Awesome\myEgg\app\service\user.js:22:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Timeout._onTimeout (E:\project\Awesome\myEgg\app\controller\user.js:16:22)
+
+pid: 23312
+hostname: DESKTOP-UVR7GCB
+

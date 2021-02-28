@@ -1,0 +1,55 @@
+2021-02-25 20:39:10,028 ERROR 20812 nodejs.ClusterClientNoResponseError: client no response in 9181996ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 20812
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 20:47:17,160 ERROR 20812 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20812
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 21:11:57,683 ERROR 20920 [-/127.0.0.1/-/20ms POST /login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\project\Awesome\myEgg\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\project\Awesome\myEgg\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\project\Awesome\myEgg\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\project\Awesome\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\project\Awesome\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\project\Awesome\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 20920
+hostname: DESKTOP-UVR7GCB
+
+2021-02-25 22:04:15,234 ERROR 26684 [-/127.0.0.1/-/104ms GET /signIn/f0f9e135-190f-4d5a-99bd-1b997118c90c] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at userService.signIn (E:\project\Awesome\myEgg\app\service\user.js:26:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.signIn (E:\project\Awesome\myEgg\app\controller\user.js:16:18)
+    at async E:\project\Awesome\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\Awesome\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\Awesome\myEgg\node_modules\koa-session\index.js:41:7)
+
+pid: 26684
+hostname: DESKTOP-UVR7GCB
+
+2021-02-26 01:50:28,598 ERROR 20812 nodejs.ClusterClientNoResponseError: client no response in 10808313ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 20812
+hostname: DESKTOP-UVR7GCB
+

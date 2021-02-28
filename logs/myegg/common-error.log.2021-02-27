@@ -1,0 +1,25 @@
+2021-02-27 09:32:12,955 ERROR 19816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19816
+hostname: DESKTOP-UVR7GCB
+
+2021-02-27 09:33:01,560 ERROR 17796 nodejs.ResponseTimeoutError: Response timeout for 5000ms, POST http://pay.zk2016.com/api/web/SignIn.do -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":1,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\urllib\lib\urllib.js:960:15)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ResponseTimeoutError"
+requestId: 2
+data: undefined
+path: "/api/web/SignIn.do"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5091,"keepAliveSocket":false,"requestUrls":["http://pay.zk2016.com/api/web/SignIn.do"],"timing":null,"remoteAddress":"120.76.59.60","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 17796
+hostname: DESKTOP-UVR7GCB
+
