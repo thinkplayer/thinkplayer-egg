@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="thinkplayer-egg">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/thinkplayer-egg.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

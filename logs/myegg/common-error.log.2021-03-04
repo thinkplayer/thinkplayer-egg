@@ -1,0 +1,24 @@
+2021-02-28 17:57:52,407 ERROR 3012 nodejs.ClusterClientNoResponseError: client no response in 1275986ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3012
+hostname: DESKTOP-UVR7GCB
+
+2021-02-28 20:31:09,281 ERROR 3012 nodejs.ClusterClientNoResponseError: client no response in 8576017ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\project\Awesome\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3012
+hostname: DESKTOP-UVR7GCB
+
+2021-03-05 08:41:30,350 ERROR 13328 nodejs.ClusterClientNoResponseError: client no response in 53090540ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\project\Awesome\thinkplayer-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 13328
+hostname: DESKTOP-UVR7GCB
+

@@ -1,6 +1,6 @@
 const sigIn = {
   schedule: {
-    cron: "0 29 14 * * *", // second minute hour (day of month) (month day of week)
+    cron: "0 5 12 * * *", // second minute hour (day of month) (month day of week)
     type: "all", // 指定所有的 worker 都需要执行
   },
   async task(ctx) {
